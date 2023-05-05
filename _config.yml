@@ -1,55 +1,75 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Site title
+title: ALEX ARCHIVES
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Below the site title
+tagline: Dream for Digital Nomad.
+
+# Site logo
+logo:
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: |
+  This is a Alex's Personal Blog. Tech, Sports, Books, that's all I want.
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: 
+
+# The subpath of your site, if you want to host your path on a subpath like on GitHub Pages. e.g. /blog
+baseurl:
+
+sass:
+  sass_dir: _sass
+
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Style Guide
+  url: /style-guide/
+- text: Archives
+  url: /tags/
+
+# Author information - author info at the bottom of the post
+author_name: "me"
+author_bio: "My name is Dongchan Alex Kim. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 6 years."
+author_url: "https://justgoodthemes.com"
+author_location: "Vilnius, Lithuania"
+author_image: authorimage.jpg
+
+# Footer ad banner
+banner_image: banner.jpg
+banner_url: https://justgoodthemes.com/
+
+# Footer newsletter widget - add your form action url for MailChimp signup form here
+mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+
+# Social links in the site footer
+twitter_username: "username"
+facebook_username: "Dongchan Alex Kim"
+github_username: "Dongckim"
+codepen_username: "username"
+dribbble_username: "username"
+medium_username: "@username"
+instagram_username: "dck_alx"
+pinterest_username: "username"
+linkedin_username: "username"
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/blog/page:num/'
+plugins: [jekyll-paginate]
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+    auto_ids: false
