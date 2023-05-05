@@ -3,7 +3,7 @@ layout: post
 title:  "Dongchan Alex Kim"
 date:   2023-05-05
 featured_image: road.jpg
-tags: [Travel, Blogging]
+tags: [Projects, Blogging]
 ---
 
 <strong>Minimalism</strong> describes movements in various forms of art and design, especially visual art and music, wherein artists intend to expose the essence or identity of a subject through eliminating all non-essential forms, features or concepts. Minimalism is any design or style wherein the simplest and fewest elements are used to create the maximum effect.
