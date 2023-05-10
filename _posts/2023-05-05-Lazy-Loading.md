@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lazy Loading 도입, 그리고 그  기록"
-date:   2023-05-07
+date:   2023-05-05
 featured_image: lazy loading.png
 tags: [React, TroubleShooting]
 ---
