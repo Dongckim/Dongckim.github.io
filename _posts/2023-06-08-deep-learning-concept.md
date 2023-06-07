@@ -2,11 +2,12 @@
 layout: post
 title:  "딥러닝 기초 이론"
 date:   2023-06-03
-featured_image:
+featured_image: deeplearning.png
 tags: [Deep-Learning]
 ---
 ### Machine Learning
 > 머신러닝이란, 컴퓨터에게 학습을 명령하는 행위를 말한다.
+
 * 머신러닝의 종류
 1. Supervised Learning : 데이터에 정답이 있고, 정답 예측모델을 만들 때. 
 ex) 강아지 사진들을 보고 학습 후, 강아지 사진을 맞추는 예측 모델
@@ -18,6 +19,7 @@ ex) 옷 추천, 영화 추천, 기사 추천등등
 
 ### Deep Learning
 > 딥러닝이란, 사람과 같은 인공 신경망인 뉴럴 네트워크를 설계하여, 머신러닝을 진행하는 것을 딥러닝이라고 한다.
+
 * 딥러닝의 주요한 분야
 1. Image Classification / Object Detection → computer vision
 2. Sequence data 분석, 예측 → 번역, 유전자 시퀀스 등등..
