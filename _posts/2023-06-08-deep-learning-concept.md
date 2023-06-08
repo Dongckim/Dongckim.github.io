@@ -9,6 +9,7 @@ tags: [Deep-Learning]
 > 머신러닝이란, 컴퓨터에게 학습을 명령하는 행위를 말한다.
 
 * 머신러닝의 종류
+
 1. Supervised Learning : 데이터에 정답이 있고, 정답 예측모델을 만들 때. 
 ex) 강아지 사진들을 보고 학습 후, 강아지 사진을 맞추는 예측 모델
 
@@ -21,6 +22,7 @@ ex) 옷 추천, 영화 추천, 기사 추천등등
 > 딥러닝이란, 사람과 같은 인공 신경망인 뉴럴 네트워크를 설계하여, 머신러닝을 진행하는 것을 딥러닝이라고 한다.
 
 * 딥러닝의 주요한 분야
+
 1. Image Classification / Object Detection → computer vision
 2. Sequence data 분석, 예측 → 번역, 유전자 시퀀스 등등..
 
@@ -36,7 +38,8 @@ ex) 옷 추천, 영화 추천, 기사 추천등등
 - 모델 학습의 목표는 모든 예시에서 평균적으로 손실이 낮은 가중치와 편향의 집합을 찾는 것이다.
 
 가장 많이 쓰이는 회귀 선형 모델은 Mean Squared Error 모델이다. 흔히 쓰이지만, 유일하게 쓰이는 방법은 아님!!
-**MSE**  = $$1 \over n$$ $$\sum$$ ($$\hat{y}$$-$$y$$)^2 = $$1 \over n$$ $$\sum$$ $$(observation - prediction(x))^2$$
+
+{% include image_full.html imageurl="/images/posts/MSE.png" title="Mean Square Error" caption="Evening at the ocean" %}
 
 ##### Activation Function
 - 중간에 있는 Hidden Layer가 있든 없든, 결과는 비슷하다. "뇌처럼 생각하는 공간" 역할을 제대로 하지 않음.
@@ -45,7 +48,7 @@ ex) 옷 추천, 영화 추천, 기사 추천등등
 
 ##### 경사하강법
 - input에 곱해지는 가중치 값(w)의 최적값을 구하기 위해서는 경사하강법(Gradient Descent)라는 간단한 방법을 이용한다.
-- 현재 w1값에서의 접선의 기울기를 w1(w1이 조금 변하면 E는 얼마나 변하는가, 편미분)에서 뺌 ($$w1 = w1$$ - a(= learning rate) $$\sigma E \over \sigma w$$)
+- 현재 w1값에서의 접선의 기울기를 w1(w1이 조금 변하면 E는 얼마나 변하는가, 편미분)에서 뺌
 - 딥러닝 학습과정
 1. w값을 무작위로 찍음 
 2. *w값을 바탕으로 총손실 E를 계산함*
