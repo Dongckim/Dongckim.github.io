@@ -56,3 +56,4 @@ ex) 옷 추천, 영화 추천, 기사 추천등등
 4. *w값을 바탕으로 총손실 E를 계산함*
 5. *경사하강법을 이용하여 w를 업데이트 함*
 6. ...총손실 E가 더 이상 안줄어들 때까지 계속 업데이트 함
+{% include image_caption.html imageurl="/images/posts/GradientDescent.png" title="Apple Super" caption="경사하강법 그림으로 이해하기" %}
