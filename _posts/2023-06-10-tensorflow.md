@@ -14,7 +14,7 @@ tags: [Deep-Learning]
 - loss function 만들기
 - 레이어 만들기
 
-> **리스트와 tensor의 차이점**
+> 리스트와 tensor의 차이점
 : 기존의 리스트에도 원하는 W값들을 저장해두고 사용할 수 있다.
 -> 그치만 자료들의 dimension이라고 불리는 차원이 좀 높아지면, tensor로 다루기가 훨씬 편하다.(이미지와 같은 3차원 자료형들)
 
@@ -24,6 +24,7 @@ tags: [Deep-Learning]
 ```
 1차원이라 겨우 계산할 정도이지, 차원이 높아질수록 계산이 어려워짐
 그렇기 때문에 행렬 연산을 실시한다.
+
 ![노드](https://codingapple.com/wp-content/uploads/2020/09/%EC%BA%A1%EC%B2%982-2.png)
 
 ```
@@ -35,7 +36,7 @@ tags: [Deep-Learning]
 print(노드1)
 ```
 
-### 여러가지 tf메서드들
+### 여러가지 tf 메서드들
 - tf.zeros() : 0이 담긴 텐서를 만들어줌
 ```
 ex) tf.zeros([2,2,3])
