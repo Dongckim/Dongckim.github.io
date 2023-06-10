@@ -39,7 +39,7 @@ ex) 옷 추천, 영화 추천, 기사 추천등등
 
 가장 많이 쓰이는 회귀 선형 모델은 Mean Squared Error 모델이다. 흔히 쓰이지만, 유일하게 쓰이는 방법은 아님!!
 
-{% include image_full.html imageurl="/images/posts/MSE.png" title="Mean Square Error" caption="Evening at the ocean" %}
+{% include image_caption.html imageurl="/images/posts/MSE.png" title="Mean Square Error" caption="Mean Square Error" %}
 
 ##### Activation Function
 - 중간에 있는 Hidden Layer가 있든 없든, 결과는 비슷하다. "뇌처럼 생각하는 공간" 역할을 제대로 하지 않음.
