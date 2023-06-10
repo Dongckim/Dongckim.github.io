@@ -41,14 +41,14 @@ navigation:
 
 # Author information - author info at the bottom of the post
 author_name: "me"
-author_bio: "My name is Dongchan Alex Kim. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 6 years."
-author_url: "https://justgoodthemes.com"
+author_bio: "Enthusiastic student studying front-end development, diving into the world of deep learning and iOS development. Sharing my journey and insights on my blog."
+author_url: "https://dongckim.github.io/"
 author_location: "Seoul, Republic of Korea"
 author_image: IMG_1902.JPG
 
 # Footer ad banner
 banner_image: banner.jpg
-banner_url: https://justgoodthemes.com/
+banner_url: https://dongckim.github.io/
 
 # Footer newsletter widget - add your form action url for MailChimp signup form here
 mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"

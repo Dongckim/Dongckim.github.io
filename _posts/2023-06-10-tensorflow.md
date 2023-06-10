@@ -2,7 +2,7 @@
 layout: post
 title:  "Tensorflow & Tensor"
 date:   2023-06-10
-featured_image:Tensorflow.png
+featured_image: Tensorflow.png
 tags: [Deep-Learning]
 ---
 ### Tensorflow
